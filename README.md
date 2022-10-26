@@ -12,9 +12,9 @@
 
   <div align="center" id="preview">
     <h3 align="center">👀 Preview</h3>
-    <img width='390px' src="./images/readme/home.jpg" alt="Home">;
-    <img width='390px' src="./images/readme/home-with-cursor.jpg" alt="Home with cursor">;
-    <img width='390px' src="./images/readme/cell.jpg" alt="Home on mobile">;
+    <img width='390px' src="./images/readme/home.jpg" alt="Home">
+    <img width='390px' src="./images/readme/home-with-cursor.jpg" alt="Home with cursor">
+    <img width='390px' src="./images/readme/cell.jpg" alt="Home on mobile">
   </div>
 
   <hr/>
