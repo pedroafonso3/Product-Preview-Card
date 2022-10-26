@@ -4,7 +4,7 @@
     <strong>Just trainning...</strong> 
   </p>
   <p align="center"> 
-    <a href="#preview">Preview</a> •
+    <a href="#preview">Preview</a>
   </p>
   <hr/>
 </header>
@@ -14,7 +14,7 @@
     <h3 align="center">👀 Preview</h3>
     <img width='390px' src="./images/readme/home.jpg" alt="Home";
     <img width='390px' src="./images/readme/home-with-cursor.jpg" alt="Home with cursor";
-    <img width='390px' src="./front-end/src/assets/preview03.png" alt="Home on mobile";
+    <img width='390px' src="./images/readme/cell.jpg" alt="Home on mobile";
   </div>
 
   <hr/>
