@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2ebe3;
+    font-size: 14px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution { 
+    font-size: 11px; 
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+.attribution a { 
+    color: #3e52a3;
+}
+
+.container {
+    margin: 30px auto;
+    padding: 0 30px;
+}
+
+.grid {
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card {
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.img img {
+    max-width: 100%;
+    display: inherit;
+}
+
+button.btn {
+    background-color: #3c8067;
+    border: none;
+    padding: 14px 0;
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    transition: background-color .3s ease;
+    width: 100%;
+    cursor: pointer;
+}
+
+button.btn:hover {
+    background-color: #255040;
+}
+
+button.btn img {
+    padding-right: 10px;
+}
+
+h6.topo {
+    text-transform: uppercase;
+    color: #6c7289;
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+h2.title {
+    font-size: 35px;
+    font-family: 'Fraunces', serif;
+    line-height: 1em;
+    color: #1c232b;
+}
+
+p.description {
+    line-height: 1.6em;
+    color: #6c7289;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+p.original {
+    font-family: 'Fraunces', serif;
+    font-size: 25px;
+    padding-right: 25px;
+    color: #3c8067;
+}
+
+p.descount {
+    text-decoration: line-through;
+    color: #6c7289;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 628px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    .img img{
+        max-height: 450px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .card{
+        display: block;
+    }
+    h6.topo, h2.title, p.description, .price{
+        padding-bottom: 23px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .container{
+        margin: 15px auto;
+        padding: 0 15px;
+    }
+    .img img{
+        max-height: 290px;
+    }
+    .card{
+        padding: 24px;
+    }
+    h6.topo, h2.title, p.description, .price{
+        padding-bottom: 16px;
+    }
+    h2.title{
+        font-size: 28px;
+    }
+    p.description{
+        font-size: 12px;
+    }
+    p.current-price{
+        font-size: 23px;
+    }
+    button.btn{
+        padding: 12px 0;
+        font-size: 13px;
+    }
+}
